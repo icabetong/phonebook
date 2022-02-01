@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="phonebook">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.js"></script>
+  <script src="lib/jquery/dist/jquery.js"></script>
+  <script src="app.js"></script>
+  <script src="controllers/main.js"></script>
+  <script src="controllers/editor.js"></script>
+  <script src="services/contacts.js"></script>
+  <title>Phonebook</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="nav-bar-header">
+          <a class="navbar-brand" href="#!">Phonebook</a>
+        </div>
+        <u class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#/">Home</a>
+          </li>
+        </u>
+      </div>
+    </nav>
+  </header>
+
+  <div class='container'>
+    <div ng-view/>
+  </div>
+
+</body>
+</html>

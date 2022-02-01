@@ -1,0 +1,22 @@
+{
+  "name": "phonebook",
+  "version": "0.0.1",
+  "description": "A web-based phonebook app, written in Angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./src -a localhost -p 8000 -c-1"
+  },
+  "author": "Isaiah Collins Abetong",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-route": "^1.8.2",
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "http-server": "^14.1.0"
+  }
+}

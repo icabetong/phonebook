@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <a href="#!editor" class="btn btn-primary">Add</a>
+  </div>
+  <div class="container">
+    <ul ng-repeat="contact in contacts">
+      <li class="list-group-item">
+        <a href="#!editor/{{contact.name}}/{{contact.number}}">
+          <span class="badge">Edit</span>
+        </a>
+        <div class="list-group-item-heading">{{contact.name}}</div>
+        <div class="list-group-item-text">{{contact.number}}</div>
+      </li>
+    </ul>
+  </div>
+</div>
